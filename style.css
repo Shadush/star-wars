@@ -15,7 +15,7 @@ html,body {
     animation-name: premice;
     animation-timing-function: ease-out;
     font-size: 32px;
-    color: #4bd5ee;
+    color: blue;
     opacity: 0;
 }
 @keyframes premice {
@@ -36,18 +36,18 @@ html,body {
     }
 }
 .defilement {
-    color: #ffff66;    
+    color: yellow;    
     font-size: 64px;
     text-align: justify;
     transform-origin: center bottom;
-    transform: perspective(300px) rotateX(25deg);
+    transform: perspective(300px) rotateX(15deg);
     position: absolute;
     top: 45%;
     top: auto;
     bottom: 0;
     height: 50em;
-    left: 50%;
-    width: 800px;
+    left: 45%;
+    width: 960px;
     margin: 0 0 0 -400px;
 }
 .defilement > div {
@@ -55,6 +55,7 @@ html,body {
     animation-duration: 20s;
     animation-name: defilement;
     animation-timing-function: linear;
+    
     position: absolute;
     top: 100%; 
 }
@@ -69,7 +70,7 @@ html,body {
     }
 
     100% {
-        top: 0;
-        opacity: 1;
+        top: -100%;
+        opacity: 0;
     }
 }
